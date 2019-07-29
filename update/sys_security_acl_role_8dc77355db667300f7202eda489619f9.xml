@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-09 12:39:47</sys_created_on>
+        <sys_id>8dc77355db667300f7202eda489619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24109_walpaylet_saldo.*.x_24109_walpaylet.saldo_user</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_security_acl display_value="x_24109_walpaylet_saldo.*">27b77355db667300f7202eda48961952</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8dc77355db667300f7202eda489619f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-09 12:39:47</sys_updated_on>
+        <sys_user_role display_value="x_24109_walpaylet.saldo_user" name="x_24109_walpaylet.saldo_user">1eadde09dbe63300f7202eda489619d4</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

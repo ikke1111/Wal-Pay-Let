@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_24109_walpaylet.wpl_transfers_read" name="x_24109_walpaylet.wpl_transfers_read">e2bff70ddbea3300f7202eda48961910</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 18:35:49</sys_created_on>
+        <sys_id>ebcf7f89dbea3300f7202eda48961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e2bff70ddbea3300f7202eda48961910</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ebcf7f89dbea3300f7202eda48961912</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 18:35:49</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

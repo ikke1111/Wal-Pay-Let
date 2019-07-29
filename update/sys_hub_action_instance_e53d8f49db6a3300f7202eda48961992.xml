@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Calculate new balance">5a3c0749db6a3300f7202eda48961917</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>5a3c0749db6a3300f7202eda48961917</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HandlePayment">05d8cb85db6a3300f7202eda48961940</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:54:46</sys_created_on>
+        <sys_id>e53d8f49db6a3300f7202eda48961992</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e53d8f49db6a3300f7202eda48961992</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:42:37</sys_updated_on>
+        <ui_id>c839e1ba-dfa1-4abb-8f24-da1e433338eb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e53d8f49db6a3300f7202eda48961992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e53d8f49db6a3300f7202eda48961992</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:54:46</sys_created_on>
+        <sys_id>213d8f49db6a3300f7202eda48961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 14:54:46</sys_updated_on>
+        <value>subtract</value>
+        <variable display_value="">3f1c4349db6a3300f7202eda489619f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e53d8f49db6a3300f7202eda48961992</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 15:08:43</sys_created_on>
+        <sys_id>7960d70ddb6a3300f7202eda489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:08:43</sys_updated_on>
+        <value>subtract</value>
+        <variable display_value="">123c0749db6a3300f7202eda48961933</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e53d8f49db6a3300f7202eda48961992"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>change_amount</field>
+        <id>e53d8f49db6a3300f7202eda48961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:54:46</sys_created_on>
+        <sys_id>293d8f49db6a3300f7202eda48961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 14:54:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a6c94b85db6a3300f7202eda48961983</table>
+        <value>{{Created or Updated_1.current.amount}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>change_amount</field>
+        <id>e53d8f49db6a3300f7202eda48961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 15:08:43</sys_created_on>
+        <sys_id>7160d70ddb6a3300f7202eda489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:08:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5a3c0749db6a3300f7202eda48961917</table>
+        <value>{{Created or Updated_1.current.amount}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cur_balance</field>
+        <id>e53d8f49db6a3300f7202eda48961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 15:08:43</sys_created_on>
+        <sys_id>3560d70ddb6a3300f7202eda489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:08:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5a3c0749db6a3300f7202eda48961917</table>
+        <value>{{Created or Updated_1.current.from.balance}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>cur_balance</field>
+        <id>e53d8f49db6a3300f7202eda48961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:54:46</sys_created_on>
+        <sys_id>e93d8f49db6a3300f7202eda48961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 14:54:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a6c94b85db6a3300f7202eda48961983</table>
+        <value>{{Created or Updated_1.current.from.balance}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>operator</field>
+        <id>e53d8f49db6a3300f7202eda48961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:54:46</sys_created_on>
+        <sys_id>ad3d8f49db6a3300f7202eda48961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 14:54:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a6c94b85db6a3300f7202eda48961983</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>operator</field>
+        <id>e53d8f49db6a3300f7202eda48961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 15:08:43</sys_created_on>
+        <sys_id>f560d70ddb6a3300f7202eda489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:08:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5a3c0749db6a3300f7202eda48961917</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

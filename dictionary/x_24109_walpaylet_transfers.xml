@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Transfers" max_length="40" name="x_24109_walpaylet_transfers" type="collection">
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="Approval" max_length="100" name="approval" type="string"/>
+        <element display="true" label="Displayvalue" max_length="200" name="displayvalue" read_only="true" type="string"/>
+        <element label="From" mandatory="true" max_length="32" name="from" reference="x_24109_walpaylet_saldo" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Request date" max_length="40" name="request_date" type="glide_date_time"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="Requested" sequence="20" value="20"/>
+                <element inactive_on_update="false" label="Approved" sequence="30" value="30"/>
+                <element inactive_on_update="false" label="Processed" sequence="40" value="40"/>
+                <element inactive_on_update="false" label="Canceled" sequence="50" value="50"/>
+            </choice>
+        </element>
+        <element label="To" mandatory="true" max_length="32" name="to" reference="x_24109_walpaylet_saldo" type="reference"/>
+        <element label="Transfer date" max_length="40" name="transfer_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="from"/>
+        </index>
+        <index name="index2">
+            <element name="to"/>
+        </index>
+    </element>
+</database>

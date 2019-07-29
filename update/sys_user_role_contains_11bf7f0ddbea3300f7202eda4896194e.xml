@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_24109_walpaylet.wpl_saldo_read" name="x_24109_walpaylet.wpl_saldo_read">80aff70ddbea3300f7202eda4896194d</contains>
+        <role display_value="x_24109_walpaylet.wpl_user" name="x_24109_walpaylet.wpl_user">5b0f770ddbea3300f7202eda489619a6</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 18:35:24</sys_created_on>
+        <sys_id>11bf7f0ddbea3300f7202eda4896194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_24109_walpaylet.wpl_saldo_read.x_24109_walpaylet.wpl_user</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sys_user_role_contains_11bf7f0ddbea3300f7202eda4896194e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 18:35:24</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

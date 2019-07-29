@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>payment_request_approval</internal_name>
+        <label_cache>[{"name":"a8e9ed17-2155-485e-a2c5-a04b76e0c222.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"a8e9ed17-2155-485e-a2c5-a04b76e0c222.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"796b88f5-2691-4491-aa95-3c2f306dbf6a.table_name","label":"2.1➛Transfers Table","reference":"x_24109_walpaylet_transfers","reference_display":"Transfers","type":"table_name","base_type":"table_name"},{"name":"796b88f5-2691-4491-aa95-3c2f306dbf6a.record","label":"2.1➛Transfers Record","reference":"x_24109_walpaylet_transfers","reference_display":"Transfers","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.from.user","label":"Trigger➛Transfers Record➛From➛User","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_24109_walpaylet_saldo","column_name":"user"},{"name":"Created or Updated_1.current","label":"Trigger➛Transfers Record","reference":"x_24109_walpaylet_transfers","reference_display":"Transfers","type":"reference","base_type":"reference"},{"name":"c11404a2-8cf2-413b-9297-4f40a21d5593.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"}]</label_cache>
+        <master>true</master>
+        <name>Payment_request_approval</name>
+        <outputs/>
+        <parent_flow display_value="Payment_request_approval">f4920781db6a3300f7202eda489619e7</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:34:38</sys_created_on>
+        <sys_id>2e988f85db6a3300f7202eda48961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payment_request_approval</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_2e988f85db6a3300f7202eda48961933</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 14:34:38</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2e988f85db6a3300f7202eda48961933"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2e988f85db6a3300f7202eda48961933"/>
+</record_update>

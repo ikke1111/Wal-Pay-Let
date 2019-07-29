@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>handlepayment</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Transfers Record","reference":"x_24109_walpaylet_transfers","reference_display":"Transfers","type":"reference","base_type":"reference"},{"name":"703b9476-e677-4d0e-bfae-8048722b8f45.table_name","label":"5➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"703b9476-e677-4d0e-bfae-8048722b8f45.record","label":"5➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.to","label":"Trigger➛Transfers Record➛To","reference":"x_24109_walpaylet_saldo","reference_display":"Saldo","type":"reference","base_type":"reference","parent_table_name":"x_24109_walpaylet_transfers","column_name":"to"},{"name":"8eb3aa87-f7d9-45a0-9f4f-659c04819e5a.table_name","label":"4➛To Table","reference":"x_24109_walpaylet_saldo","reference_display":"Saldo","type":"table_name","base_type":"table_name"},{"name":"8eb3aa87-f7d9-45a0-9f4f-659c04819e5a.record","label":"4➛To Record","reference":"x_24109_walpaylet_saldo","reference_display":"Saldo","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.to.balance","label":"Trigger➛Transfers Record➛To➛Balance","reference":"","reference_display":"Balance","type":"currency","base_type":"currency","parent_table_name":"x_24109_walpaylet_saldo","column_name":"balance"},{"name":"33e4615b-0dca-425e-9ba8-6a0b956177c9.new_balance","label":"3➛new_balance","reference_display":"new_balance","type":"currency","base_type":"currency"},{"name":"e696071f-999a-421e-b428-b9646cd8a833.table_name","label":"2➛From Table","reference":"x_24109_walpaylet_saldo","reference_display":"Saldo","type":"table_name","base_type":"table_name"},{"name":"e696071f-999a-421e-b428-b9646cd8a833.record","label":"2➛From Record","reference":"x_24109_walpaylet_saldo","reference_display":"Saldo","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.from.balance","label":"Trigger➛Transfers Record➛From➛Balance","reference":"","reference_display":"Balance","type":"currency","base_type":"currency","parent_table_name":"x_24109_walpaylet_saldo","column_name":"balance"},{"name":"Created or Updated_1.current.amount","label":"Trigger➛Transfers Record➛Amount","reference":"","reference_display":"Amount","type":"currency","base_type":"currency","parent_table_name":"x_24109_walpaylet_transfers","column_name":"amount"},{"name":"c839e1ba-dfa1-4abb-8f24-da1e433338eb.new_balance","label":"1➛new_balance","reference_display":"new_balance","type":"currency","base_type":"currency"},{"name":"e420f5e0-454d-4d77-8714-3d99cb22371c.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"e420f5e0-454d-4d77-8714-3d99cb22371c.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current.from","label":"Trigger➛Transfers Record➛From","reference":"x_24109_walpaylet_saldo","reference_display":"Saldo","type":"reference","base_type":"reference","parent_table_name":"x_24109_walpaylet_transfers","column_name":"from"}]</label_cache>
+        <master>true</master>
+        <name>HandlePayment</name>
+        <outputs/>
+        <parent_flow display_value="HandlePayment">05d8cb85db6a3300f7202eda48961940</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 15:08:44</sys_created_on>
+        <sys_id>8660d70ddb6a3300f7202eda489619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HandlePayment</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_8660d70ddb6a3300f7202eda489619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:08:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8660d70ddb6a3300f7202eda489619dc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8660d70ddb6a3300f7202eda489619dc"/>
+</record_update>

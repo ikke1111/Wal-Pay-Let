@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9d3f679ddb267300f7202eda4896193d" sys_domain="global" table="x_24109_walpaylet_transfers" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-09 12:01:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>993fa79ddb267300f7202eda489619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_24109_walpaylet_transfers" name="x_24109_walpaylet_transfers" sys_domain="global" view="Default view">9d3f679ddb267300f7202eda4896193d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_24109_walpaylet_transfers" sys_domain="global" view="Default view">fd286201db2a3300f7202eda48961909</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-09 12:01:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-09 12:01:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>553fa79ddb267300f7202eda489619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_24109_walpaylet_transfers" name="x_24109_walpaylet_transfers" sys_domain="global" view="Default view">9d3f679ddb267300f7202eda4896193d</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_24109_walpaylet_transfers" sys_domain="global" view="Default view">5d3f679ddb267300f7202eda4896193c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-09 12:01:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_24109_walpaylet_transfers</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-09 12:01:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d3f679ddb267300f7202eda4896193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_24109_walpaylet_transfers</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9d3f679ddb267300f7202eda4896193d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-09 12:01:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

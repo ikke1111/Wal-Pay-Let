@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Saldo" max_length="40" name="x_24109_walpaylet_saldo" type="collection">
+        <element label="Balance" max_length="20" name="balance" type="currency"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Note (Visible to others in Portal)" max_length="4000" name="note" type="string"/>
+        <element display="true" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

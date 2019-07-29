@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($uibModal,$scope,$sce) {
+  /* widget controller */
+  var c = this;
+	c.data.personName = '';
+	c.search = function(){
+		c.server.update().then(function(){				
+		})
+	}
+	
+	c.openModal = function(personName) {
+		c.data.personName = personName;
+		
+		c.server.update().then(function(){
+			c.note = $sce.trustAsHtml(c.data.note);
+			c.modalInstance = $uibModal.open({
+				templateUrl: 'modalTemplate',
+				scope: $scope
+			});
+		})
+	}
+ 
+	c.closeModal = function() {
+		c.modalInstance.close();
+		c.data.personName = '';
+	}
+	
+	
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>div button {
+    float: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>walpaylet_transactions</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>walpaylet transactions</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+	if(input && input.personName != ''){
+
+		var grsald = new GlideRecord('x_24109_walpaylet_saldo')
+		grsald.addQuery('user.name',input.personName);
+		grsald.setLimit(1);
+		grsald.query();
+		if(grsald.next()){
+			data.note = grsald.note.toString();
+		}
+	} else {
+		
+		var queryreceived = 'to.user=' + gs.getUserID() + '^from.userLIKE';
+		var querypayed = 'from.user=' + gs.getUserID() + '^to.userLIKE';
+		var recrecords = [];
+		var payrecords = [];
+
+		if(input ){
+
+				queryreceived += input.query;	
+				querypayed += input.query;	
+
+		}
+
+		var grreceived = new GlideRecord('x_24109_walpaylet_transfers')
+		grreceived.addEncodedQuery(queryreceived);
+		grreceived.query();
+		while(grreceived.next()){
+			var resrecord = {
+				from:grreceived.from.user.name.toString(),
+				amount:grreceived.amount.getSessionDisplayValue(),
+				state:grreceived.state.getDisplayValue(),
+				transferdate:grreceived.transfer_date.getDisplayValue()
+			}
+			recrecords.push(resrecord);
+		}
+
+		var grpayed = new GlideRecord('x_24109_walpaylet_transfers')
+		grpayed.addEncodedQuery(querypayed);
+		grpayed.query();
+		while(grpayed.next()){
+			var resrecords = {
+				to:grpayed.to.user.name.toString(),
+				amount:grpayed.amount.getSessionDisplayValue(),
+				state:grpayed.state.getDisplayValue(),
+				transferdate:grpayed.transfer_date.getDisplayValue()	
+			}
+			payrecords.push(resrecords);
+
+		}
+		data.received = recrecords;
+		data.payed = payrecords;
+	
+	}
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-09 19:23:12</sys_created_on>
+        <sys_id>5f3411a1db6a7300f7202eda48961966</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>walpaylet transactions</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sp_widget_5f3411a1db6a7300f7202eda48961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-09 22:20:58</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-primary b">
+
+	<div class="panel-heading">
+		<h4 class="panel-title">${Historical transactions}</h4>
+	</div>
+
+  		<div class="panel-body">
+  <form class="form-horizontal">
+    <div class="form-group">
+  
+  
+  
+        <label class="col-sm-2 control-label">User</label>
+        <div class="col-sm-8">
+          <input type="text" placeholder="find transactions with this user" ng-model="c.data.query" class="form-control">
+        </div>
+        <div class="col-sm-2">
+           <button type="button" class="btn btn-primary" ng-click="c.search()">search</button>
+        </div>
+      </div>
+	<div class="panel-body">
+		<table>
+      <tr>
+      	<th width="25%">From</th>
+        <th width="25%">Amount</th>
+        <th width="25%">Status</th>
+        <th width="25%">Processed</th>
+      </tr>
+      <tr ng-repeat="transactions in data.received">
+      	<th ng-click="c.openModal(transactions.from)">{{transactions.from}}</th>
+        <th>{{transactions.amount}}</th>
+        <th>{{transactions.state}}</th>
+        <th>{{transactions.transferdate}}</th>
+      </tr>
+    </table>
+  <p>
+    
+    </p>
+    <table>
+      <tr>
+      	<th width="25%">To</th>
+        <th width="25%">Amount</th>
+        <th width="25%">Status</th>
+        <th width="25%">Processed</th>
+      </tr>
+      <tr ng-repeat="transactions in data.payed">
+      	<th ng-click="c.openModal(transactions.to)">{{transactions.to}}</th>
+        <th>{{transactions.amount}}</th>
+        <th>{{transactions.state}}</th>
+        <th>{{transactions.transferdate}}</th>
+      </tr>
+    </table>
+    
+  </div>
+    
+ <script type="text/ng-template" id="modalTemplate">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">Modal Window</h4>
+  		</div>
+		<div class="panel-body wrapper-xl">
+			<div>
+      {{c.data.personName}}
+      </div>
+  		<br></br>
+      <div>
+      <p ng-bind-html="c.note"></p>
+      </div>
+   </div>
+		<div class="panel-footer text-right">
+			<button class="btn btn-primary" ng-click="c.closeModal()">${Close}</button>
+		</div>
+	</div>
+</script>]]></template>
+    </sp_widget>
+</record_update>

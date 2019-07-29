@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>calculate_new_balance</internal_name>
+        <label_cache>[{"name":"{{action.cur_balance}}","label":"action➛cur_balance","type":"action","ref":""},{"name":"{{action.change_amount}}","label":"action➛change_amount","type":"action","ref":""},{"name":"{{action.operator}}","label":"action➛operator","type":"action","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].n}}","label":"step➛Script step➛n","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].ne}}","label":"step➛Script step➛ne","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new}}","label":"step➛Script step➛new","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_}}","label":"step➛Script step➛new_","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_b}}","label":"step➛Script step➛new_b","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_ba}}","label":"step➛Script step➛new_ba","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_bal}}","label":"step➛Script step➛new_bal","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_bala}}","label":"step➛Script step➛new_bala","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_balan}}","label":"step➛Script step➛new_balan","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_balanc}}","label":"step➛Script step➛new_balanc","type":"step","ref":""},{"name":"{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_balance}}","label":"step➛Script step➛new_balance","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>d110930ddb6a3300f7202eda4896197e</latest_snapshot>
+        <master_snapshot>5a3c0749db6a3300f7202eda48961917</master_snapshot>
+        <name>Calculate new balance</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:39:50</sys_created_on>
+        <sys_id>a6c94b85db6a3300f7202eda48961983</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Calculate new balance</sys_name>
+        <sys_package display_value="Wal-Pay-Let" source="x_24109_walpaylet">533d1609dbe63300f7202eda48961975</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Wal-Pay-Let">533d1609dbe63300f7202eda48961975</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a6c94b85db6a3300f7202eda48961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:07:20</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a6c94b85db6a3300f7202eda48961983"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a6c94b85db6a3300f7202eda48961983"/>
+    <sys_element_mapping action="delete_multiple" query="id=a6c94b85db6a3300f7202eda48961983"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>new_balance</field>
+        <id>a6c94b85db6a3300f7202eda48961983</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-08 14:50:02</sys_created_on>
+        <sys_id>4c2c8349db6a3300f7202eda4896193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 14:50:02</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a6c94b85db6a3300f7202eda48961983</table>
+        <value>{{step[23e4ec94-559b-4f63-a9e1-93d2824ec448].new_balance}}</value>
+    </sys_element_mapping>
+</record_update>
