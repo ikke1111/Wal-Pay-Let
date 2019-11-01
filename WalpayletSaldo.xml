@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2019-10-21 11:09:07">
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>100</balance>
+<description>vriendin van Minnie Mouse en Klaartje Kip en geliefde van Karel Paardepoot</description>
+<note>vriendin van Minnie Mouse en Klaartje Kip en geliefde van Karel Paardepoot</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:23:47</sys_created_on>
+<sys_id>480ef27edb200010ffc5e9c948961904</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:23:47</sys_updated_on>
+<user display_value="Clarabella Koe">3da9ba3adb200010ffc5e9c948961978</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>35</balance>
+<description>neefjes van Donald, bij wie ze in huis wonen</description>
+<note>neefjes van Donald, bij wie ze in huis wonen</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:21:28</sys_created_on>
+<sys_id>868d7a3edb200010ffc5e9c948961985</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:21:28</sys_updated_on>
+<user display_value="Kwak Duck">8f2a72f6db200010ffc5e9c9489619db</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>40</balance>
+<description>neefje van Donald, bij wie ze in huis wonen</description>
+<note>neefje van Donald, bij wie ze in huis wonen</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:21:45</sys_created_on>
+<sys_id>5a9d7a7adb200010ffc5e9c94896193b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:21:45</sys_updated_on>
+<user display_value="Kwik Duck">931aba3adb200010ffc5e9c94896196d</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>200</balance>
+<description>een van de vaste tegenstanders van Mickey Mouse</description>
+<note>een van de vaste tegenstanders van Mickey Mouse</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:24:19</sys_created_on>
+<sys_id>552e367edb200010ffc5e9c9489619b9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:24:19</sys_updated_on>
+<user display_value="Boris Boef">ac99f23adb200010ffc5e9c94896197e</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>5</balance>
+<description>volle neef van Donald</description>
+<note>volle neef van Donald</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:22:41</sys_created_on>
+<sys_id>96cd727edb200010ffc5e9c9489619b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:22:41</sys_updated_on>
+<user display_value="Guus Geluk">d0e93a7adb200010ffc5e9c9489619fe</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>30</balance>
+<description>neefje van Donald, bij wie ze in huis wonen</description>
+<note>neefje van Donald, bij wie ze in huis wonen</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:21:10</sys_created_on>
+<sys_id>2a5d767adb200010ffc5e9c9489619d4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:21:10</sys_updated_on>
+<user display_value="Kwek Duck">d13a7a7adb200010ffc5e9c948961933</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>10000</balance>
+<description>rijkste eend ter wereld</description>
+<note>rijkste eend ter wereld</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:20:09</sys_created_on>
+<sys_id>161d7a3edb200010ffc5e9c948961920</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:20:09</sys_updated_on>
+<user display_value="Dagobert Duck">e06a7a7adb200010ffc5e9c948961900</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>100</balance>
+<description>luie knecht bij Oma Duck op de boerderij</description>
+<note>luie knecht bij Oma Duck op de boerderij</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:23:14</sys_created_on>
+<sys_id>74edfe3edb200010ffc5e9c948961961</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:23:14</sys_updated_on>
+<user display_value="Gijs Gans">e1c93e3adb200010ffc5e9c9489619a0</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>300</balance>
+<description>geliefde van Donald en/of Guus</description>
+<note>geliefde van Donald en/of Guus</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:22:16</sys_created_on>
+<sys_id>1badb63edb200010ffc5e9c948961906</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:22:16</sys_updated_on>
+<user display_value="Katrien Duck">eef9f23adb200010ffc5e9c948961980</user>
+</x_24109_walpaylet_saldo>
+<x_24109_walpaylet_saldo action="INSERT_OR_UPDATE">
+<balance>65</balance>
+<description>opvliegerige eend</description>
+<note>opvliegerige eend</note>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-10-21 10:24:55</sys_created_on>
+<sys_id>8d4e727edb200010ffc5e9c9489619b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-10-21 10:24:55</sys_updated_on>
+<user display_value="Donald Duck">f2093e3adb200010ffc5e9c94896199a</user>
+</x_24109_walpaylet_saldo>
+</unload>
